@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mining Incremental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<p> Depth: </p>
+<p id="mine"></p>
+<button type="button" onclick="mine()"> Mine </button>
+<div>
+<button type="button" onclick="minepower()"> Decrease depth and upgrade mine power </button>
+<p id="costminepower"></p>
+<p> Mine power: </p>
+<p id=minepower></p>
+</div>
+<div>
+<p>Get to 10k depth for pickaxes!</p>
+<p id=percent>0</p>
+</div>
+<p>Inspired by antimatter dimensions and distance incremental.</p>
+<button type="button" onclick="levelup()"> Level up. </button>
+<p id=level>Level cost: 10</p>
+<p id=levell>Level: 1. Each level is multiplier for depth gain.</p>
+
+
+
+
+<!--main js-->
+<script src="js/minepower.js"></script>
+<script src="js/mine.js"></script>
+<script src="js/OmegaNum.js"></script>
+<script src="js/percent.js"></script>
+<script src="js/level.js"></script>
+</body>
+</html>
