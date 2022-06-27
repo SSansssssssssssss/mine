@@ -2,9 +2,9 @@ function load() {
  depth = localStorage.getItem("depthsave")
  depthcounter = localStorage.getItem("depthcountersave")
  level = localStorage.getItem("levelsave")
- parseInt(depth)
- parseInt(depthcounter)
- parseInt(level)
+ Number(depth)
+ Number(depthcounter)
+ Number(level)
 }
 function reset() {
  depth = 0
