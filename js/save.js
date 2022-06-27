@@ -1,7 +1,7 @@
 function save() {
- depthstring = OmegaNum.toString(depth)
- depthcounterstring = OmegaNum.toString(depthcounter)
- levelstring = OmegaNum.toString(level)
+ depthstring = OmegaNum(depth).toString()
+ depthcounterstring = OmegaNum(depthcounter).toString()
+ levelstring = OmegaNum(level).toString()
  localStorage.setItem("depthsave", depthstring)
  localStorage.setItem("depthcountersave", depthcounterstring)
  localStorage.setItem("levelsave", levelstring)
