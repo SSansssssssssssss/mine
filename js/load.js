@@ -4,7 +4,7 @@ function load() {
  level = window.localStorage.getItem("levelsave")
  JSON.parse(depth)
  JSON.parse(depthcounter)
- Json.parse(level)
+ JSON.parse(level)
 }
 function reset() {
  depth = 0
