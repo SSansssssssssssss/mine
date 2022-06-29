@@ -1,7 +1,7 @@
 function load() {
- depth = localStorage.getItem("depthsave")
- depthcounter = localStorage.getItem("depthcountersave")
- level = localStorage.getItem("levelsave")
+ depth = window.ocalStorage.getItem("depthsave")
+ depthcounter = window.localStorage.getItem("depthcountersave")
+ level = window.localStorage.getItem("levelsave")
  Number(depth)
  Number(depthcounter)
  Number(level)
