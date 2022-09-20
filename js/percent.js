@@ -1,6 +1,6 @@
 punlocked = 0
 function called() {
- if (punlocked = 0) {
+ if (punlocked == 0) {
   p = depth / 100;
   str = " "
   p2 = str + p
