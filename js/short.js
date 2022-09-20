@@ -2,7 +2,8 @@
 function short() {
  if (depth > 999 && depth < 999999) {
   sign = "K";
-  depthf = depth / 1000;
+  var a = depth / 1000
+  depthf = a;
   depthk = depthf + ""
  }
  else {
