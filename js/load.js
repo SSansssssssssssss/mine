@@ -9,5 +9,6 @@ function load() {
 function reset() {
  depth = 0
  depthcounter = 1
+ punlocked = 0
  level = 1
 }
