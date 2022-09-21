@@ -7,6 +7,12 @@ function stickbuy() {
       stick = stick + 1
       depth = depth - 1000
     }
+    else {
+      window.alert("Not enough depth")
+    }
+  }
+  else {
+    window.alert("Did not unlock pickaxes yet!")
   }
 }
 //actually mining.
