@@ -1,4 +1,5 @@
 // welcom traveler
+// what the it didnt comit
 stick = 0
 //stick buy function yes
 function stickbuy() {
