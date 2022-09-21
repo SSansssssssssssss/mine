@@ -1,6 +1,6 @@
 function save() {
- sessionStorage.setItem("depthsave", depth)
- sessionStorage.setItem("depthcountersave", depthcounter)
- sessionStorage.setItem("levelsave", level)
+ localStorage.setItem("depthsave", depth)
+ localStorage.setItem("depthcountersave", depthcounter)
+ localStorage.setItem("levelsave", level)
 }
 setInterval(save, 1)
