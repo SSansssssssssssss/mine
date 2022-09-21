@@ -5,9 +5,8 @@ function load() {
  window.alert(depth)
  window.alert(depthcounter)
  window.alert(level)
- window.alert(typeof depth)
- window.alert(typeof depthcounter)
- window.alert(typeof level)
+ var typedepth = typeof depth
+ document.getElementById("type").innerHTML = typedepth
  JSON.parse(depth)
  JSON.parse(depthcounter)
  JSON.parse(level)
