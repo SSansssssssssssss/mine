@@ -1,7 +1,7 @@
 function load() {
- depth = sessionStorage.getItem("depthsave")
- depthcounter = sessionStorage.getItem("depthcountersave")
- level = sessionStorage.getItem("levelsave")
+ depth = localStorage.getItem("depthsave")
+ depthcounter = localStorage.getItem("depthcountersave")
+ level = localStorage.getItem("levelsave")
  JSON.parse(depth)
  JSON.parse(depthcounter)
  JSON.parse(level)
