@@ -16,4 +16,5 @@ function reset() {
  depthcounter = 1
  punlocked = 0
  level = 1
+ stick = 0
 }
