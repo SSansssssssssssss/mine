@@ -1,7 +1,7 @@
 // welcom traveler
 stick = 0
 //stick buy function yes
-function stickbuy {
+function stickbuy() {
   if (punlocked == 1) {
     if (depth >= 1000) {
       stick = stick + 1
